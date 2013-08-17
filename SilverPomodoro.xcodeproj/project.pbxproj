@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E82C4D146AE216002BC3DE /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00E82C4C146AE216002BC3DE /* Icon.icns */; };
+		00F10A1D146C220200A2BCDA /* RoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F10A1A146C220200A2BCDA /* RoundedView.m */; };
+		00F10A1E146C220200A2BCDA /* TransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F10A1C146C220200A2BCDA /* TransparentWindow.m */; };
+		00F10A21146C228300A2BCDA /* White.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F10A20146C228300A2BCDA /* White.png */; };
+		6C7CCDFA136F3CF600D03814 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7CCDF9136F3CF600D03814 /* Cocoa.framework */; };
+		6C7CCE04136F3CF600D03814 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CCE02136F3CF600D03814 /* InfoPlist.strings */; };
+		6C7CCE07136F3CF600D03814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CCE06136F3CF600D03814 /* main.m */; };
+		6C7CCE0D136F3CF600D03814 /* PomodoroTimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CCE0C136F3CF600D03814 /* PomodoroTimerAppDelegate.m */; };
+		6C7CCE10136F3CF600D03814 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CCE0E136F3CF600D03814 /* MainMenu.xib */; };
+		6C7CCE18136F3E8E00D03814 /* TimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CCE17136F3E8E00D03814 /* TimerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00E82C4C146AE216002BC3DE /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		00F10A19146C220200A2BCDA /* RoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedView.h; sourceTree = "<group>"; };
+		00F10A1A146C220200A2BCDA /* RoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedView.m; sourceTree = "<group>"; };
+		00F10A1B146C220200A2BCDA /* TransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentWindow.h; sourceTree = "<group>"; };
+		00F10A1C146C220200A2BCDA /* TransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentWindow.m; sourceTree = "<group>"; };
+		00F10A20146C228300A2BCDA /* White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = White.png; sourceTree = "<group>"; };
+		6C7CCDF5136F3CF600D03814 /* SilverPomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverPomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7CCDF9136F3CF600D03814 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6C7CCDFC136F3CF600D03814 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6C7CCDFD136F3CF600D03814 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6C7CCDFE136F3CF600D03814 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C7CCE01136F3CF600D03814 /* SilverPomodoro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SilverPomodoro-Info.plist"; sourceTree = "<group>"; };
+		6C7CCE03136F3CF600D03814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C7CCE05136F3CF600D03814 /* SilverPomodoro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SilverPomodoro-Prefix.pch"; sourceTree = "<group>"; };
+		6C7CCE06136F3CF600D03814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C7CCE0B136F3CF600D03814 /* PomodoroTimerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PomodoroTimerAppDelegate.h; sourceTree = "<group>"; };
+		6C7CCE0C136F3CF600D03814 /* PomodoroTimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PomodoroTimerAppDelegate.m; sourceTree = "<group>"; };
+		6C7CCE0F136F3CF600D03814 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6C7CCE16136F3E8E00D03814 /* TimerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerController.h; sourceTree = "<group>"; };
+		6C7CCE17136F3E8E00D03814 /* TimerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7CCDF2136F3CF600D03814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7CCDFA136F3CF600D03814 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7CCDEA136F3CF500D03814 = {
+			isa = PBXGroup;
+			children = (
+				6C7CCDFF136F3CF600D03814 /* PomodoroTimer */,
+				6C7CCDF8136F3CF600D03814 /* Frameworks */,
+				6C7CCDF6136F3CF600D03814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7CCDF6136F3CF600D03814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CCDF5136F3CF600D03814 /* SilverPomodoro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7CCDF8136F3CF600D03814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CCDF9136F3CF600D03814 /* Cocoa.framework */,
+				6C7CCDFB136F3CF600D03814 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C7CCDFB136F3CF600D03814 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CCDFC136F3CF600D03814 /* AppKit.framework */,
+				6C7CCDFD136F3CF600D03814 /* CoreData.framework */,
+				6C7CCDFE136F3CF600D03814 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6C7CCDFF136F3CF600D03814 /* PomodoroTimer */ = {
+			isa = PBXGroup;
+			children = (
+				00F10A19146C220200A2BCDA /* RoundedView.h */,
+				00F10A1A146C220200A2BCDA /* RoundedView.m */,
+				00F10A1B146C220200A2BCDA /* TransparentWindow.h */,
+				00F10A1C146C220200A2BCDA /* TransparentWindow.m */,
+				6C7CCE0B136F3CF600D03814 /* PomodoroTimerAppDelegate.h */,
+				6C7CCE0C136F3CF600D03814 /* PomodoroTimerAppDelegate.m */,
+				6C7CCE16136F3E8E00D03814 /* TimerController.h */,
+				6C7CCE17136F3E8E00D03814 /* TimerController.m */,
+				6C7CCE0E136F3CF600D03814 /* MainMenu.xib */,
+				6C7CCE00136F3CF600D03814 /* Supporting Files */,
+			);
+			path = PomodoroTimer;
+			sourceTree = "<group>";
+		};
+		6C7CCE00136F3CF600D03814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00F10A20146C228300A2BCDA /* White.png */,
+				00E82C4C146AE216002BC3DE /* Icon.icns */,
+				6C7CCE01136F3CF600D03814 /* SilverPomodoro-Info.plist */,
+				6C7CCE02136F3CF600D03814 /* InfoPlist.strings */,
+				6C7CCE05136F3CF600D03814 /* SilverPomodoro-Prefix.pch */,
+				6C7CCE06136F3CF600D03814 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C7CCDF4136F3CF600D03814 /* SilverPomodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7CCE13136F3CF600D03814 /* Build configuration list for PBXNativeTarget "SilverPomodoro" */;
+			buildPhases = (
+				6C7CCDF1136F3CF600D03814 /* Sources */,
+				6C7CCDF2136F3CF600D03814 /* Frameworks */,
+				6C7CCDF3136F3CF600D03814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilverPomodoro;
+			productName = PomodoroTimer;
+			productReference = 6C7CCDF5136F3CF600D03814 /* SilverPomodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7CCDEC136F3CF500D03814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 6C7CCDEF136F3CF500D03814 /* Build configuration list for PBXProject "SilverPomodoro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C7CCDEA136F3CF500D03814;
+			productRefGroup = 6C7CCDF6136F3CF600D03814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C7CCDF4136F3CF600D03814 /* SilverPomodoro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7CCDF3136F3CF600D03814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7CCE04136F3CF600D03814 /* InfoPlist.strings in Resources */,
+				6C7CCE10136F3CF600D03814 /* MainMenu.xib in Resources */,
+				00E82C4D146AE216002BC3DE /* Icon.icns in Resources */,
+				00F10A21146C228300A2BCDA /* White.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7CCDF1136F3CF600D03814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7CCE07136F3CF600D03814 /* main.m in Sources */,
+				6C7CCE0D136F3CF600D03814 /* PomodoroTimerAppDelegate.m in Sources */,
+				6C7CCE18136F3E8E00D03814 /* TimerController.m in Sources */,
+				00F10A1D146C220200A2BCDA /* RoundedView.m in Sources */,
+				00F10A1E146C220200A2BCDA /* TransparentWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C7CCE02136F3CF600D03814 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7CCE03136F3CF600D03814 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C7CCE0E136F3CF600D03814 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7CCE0F136F3CF600D03814 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C7CCE11136F3CF600D03814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6C7CCE12136F3CF600D03814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6C7CCE14136F3CF600D03814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PomodoroTimer/SilverPomodoro-Prefix.pch";
+				INFOPLIST_FILE = "PomodoroTimer/SilverPomodoro-Info.plist";
+				PRODUCT_NAME = SilverPomodoro;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C7CCE15136F3CF600D03814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PomodoroTimer/SilverPomodoro-Prefix.pch";
+				INFOPLIST_FILE = "PomodoroTimer/SilverPomodoro-Info.plist";
+				PRODUCT_NAME = SilverPomodoro;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7CCDEF136F3CF500D03814 /* Build configuration list for PBXProject "SilverPomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7CCE11136F3CF600D03814 /* Debug */,
+				6C7CCE12136F3CF600D03814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7CCE13136F3CF600D03814 /* Build configuration list for PBXNativeTarget "SilverPomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7CCE14136F3CF600D03814 /* Debug */,
+				6C7CCE15136F3CF600D03814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C7CCDEC136F3CF500D03814 /* Project object */;
+}
